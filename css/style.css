@@ -1,0 +1,81 @@
+body{
+    /* background-color: red;  */
+}
+.Tariffs_container{
+    background-color: black;
+    padding: 10px;
+}
+.plan_pay_container{
+    display: flex;
+    border: 2px solid;
+    justify-content: space-around;
+}
+.pay_title {
+    font-size: 2rem;
+    color: red;
+    font-weight: 700;
+}
+
+.plan{
+    color: #0f0808;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.plan_text{
+    color: white;
+    padding: 23px;
+    /* width: 467px; */
+}
+.internet{
+color: black;
+font-weight: bold;
+background-color: red;
+}
+
+.internet + h2{
+color: red;
+font-weight: bold;
+font-size: 2rem;
+}
+.internet + h2+h3{
+color: red;
+font-weight: bold;
+font-size: 2rem;
+}
+.loremSpan{
+    padding: 10px;
+}
+.pay_content_info {
+    background-color: rgb(115 79 60);
+    text-align: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.pay_content_info h1{
+    /* background-color: red; */
+} 
+.pay_content_info:hover{
+    background-color: whitesmoke;
+    color: black;
+
+}
+
+.pay_content_info:hover .internet{
+    background-color: green;
+    transition: 500ms;
+    color: whitesmoke;
+}
+
+.button_color {
+    color: white;
+    background: #3f51b5;
+    padding: 10px 47px;
+    border-radius: 16px;
+    margin-bottom: -20px;
+    outline: none;
+    border: navajowhite;
+    font-size: 1rem;
+    cursor: pointer;
+}
