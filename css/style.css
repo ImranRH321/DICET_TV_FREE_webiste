@@ -1,6 +1,56 @@
 body{
     /* background-color: red;  */
 }
+.live_sp_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.img_container{
+    max-width: 500px;
+}
+.img_container img{
+    width: 100%
+}
+.title_live{
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+}
+.title_live + p{
+    font-weight: bold;
+    font-style:italic;
+}
+
+.common_btn_container{
+    display: flex;
+}
+
+.btn_red , .btn_black,.read_more{
+    width: 100%;
+    background-color: rgb(222, 23, 49);
+    color: rgb(249, 249, 249);
+    outline: none;
+    padding: 15px 4px;
+    border: none;
+    font-weight: 600;
+    
+    margin: 20px 0;
+}
+.btn_black{
+    background-color: black
+}
+.read_more{
+ width: 150px;
+ background-color: black;
+ border-radius: 15%;
+}
+.read_more:hover{
+    background-color: rgba(255, 0, 0, 0.78);
+    cursor: pointer;
+   
+}
+
+/* ==================================== */
 .Tariffs_container{
     background-color: black;
     padding: 10px;

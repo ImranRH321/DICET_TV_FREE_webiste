@@ -4,14 +4,24 @@
         flex-direction: column;
         gap: 20px;
     }
+    .live_sp_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 @media only screen  and (min-width: 577px) and (max-width: 993px){
     body{
-        background-color: rgb(21, 14, 14);
+        /* background-color: rgb(21, 14, 14); */
     }
     .plan_pay_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
+    }
+    .live_sp_container {
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .img_container {
+        width: 95%;
+        margin: 0 auto;
     }
 }
