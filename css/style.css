@@ -1,6 +1,91 @@
 body{
     /* background-color: red;  */
 }
+/* navbar  */
+nav {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    background: forestgreen;
+    color: white;
+}
+.logo img {
+    max-width: 97px;
+    color: red;
+    background: blue;
+    padding: 12px;
+    border-radius: 49px;
+}
+nav ul {
+    display: flex;
+    
+}
+
+nav ul li{
+  list-style-type: none;
+  margin: 0 5px;
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+}
+nav ul li a:hover{
+color: red;
+transition: 500ms;
+}
+
+.info_right i{
+    margin: 0 10px;
+}
+
+.info_right button {
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+
+.dashboard_container{
+    border: 2px saddlebrown;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+.notWorking_icon{
+    font-size: 2rem;
+}
+
+
+.dashboard{
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 50px 10px;
+    background-color: white;
+    color: black;
+}
+.a{
+background-color: black;
+color: white;
+}
+.a:hover{
+    background-color: white ;
+    color: black;
+    transition: 500ms;
+    border-bottom: 2px solid saddlebrown;
+}
+
+/* ------ */
 .live_sp_container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -224,7 +309,7 @@ footer{
     padding: 10px 0
 }
 
-i{
+.footer_icon{
     color: floralwhite;
     font-size: 2rem;
     padding: 10px 4px;
