@@ -1,6 +1,12 @@
 body{
     /* background-color: red;  */
 }
+
+header{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
 /* navbar  */
 nav {
     display: grid;
@@ -9,8 +15,11 @@ nav {
     align-items: center;
     align-content: center;
     align-self: center;
-    background: forestgreen;
-    color: white;
+    /* background: forestgreen; */
+   background-color: rgba(255, 0, 0, 0.514); 
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 15px 0;
 }
 .logo img {
     max-width: 97px;
@@ -30,11 +39,13 @@ nav ul li{
 }
 nav ul li a{
 text-decoration: none;
-color: white;
+
+color: rgb(240, 240, 240);
 }
 nav ul li a:hover{
-color: red;
+color: rgb(0, 0, 0);
 transition: 500ms;
+border-bottom: 1px solid black;
 }
 
 .info_right i{
@@ -50,6 +61,31 @@ transition: 500ms;
     border-radius: 10px;
     padding: 5px 10px;
 }
+/* banner  */
+.banner_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5%;
+}
+
+.btn_container{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.btn_container button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.banner_img img {
+    max-width: 400px;
+    width: 100%;
+}
+
 
 
 .dashboard_container{
@@ -86,9 +122,10 @@ color: white;
 }
 
 /* ------ */
-.live_sp_container{
+.live_sp_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 64px;
 }
 .img_container{
     max-width: 500px;

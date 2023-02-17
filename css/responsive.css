@@ -44,6 +44,13 @@
         flex-direction: column;
         gap: 22px;
     }
+    .banner_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner_img {
+        width: 369px;
+        margin-top: 46px;
+    }
 }
 @media only screen  and (min-width: 577px) and (max-width: 993px){
     body{
