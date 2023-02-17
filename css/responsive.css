@@ -7,6 +7,17 @@
     .live_sp_container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* =============  */
+    footer{
+        margin-top: 10px;
+    }
+
+    .footerTop {
+        display: none;
+    }
+
+
     /* ==============  */
     .helloBeby {
         grid-template-columns: repeat(1,1fr);
@@ -17,6 +28,11 @@
         width: 40%;
         margin: auto;
     }
+    /* footer bottom */
+    .footer_bottom_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* =========== */
 }
 @media only screen  and (min-width: 577px) and (max-width: 993px){
     body{
@@ -38,5 +54,19 @@
         grid-template-columns: repeat(2,1fr);
         padding: 7px;
         
+    }
+
+    /* footerBottom  */
+    .footer_bottom_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footerTop{
+        flex-wrap: wrap;
+        /* height: max-content; */
+        height: 100px;
+       }
+       .footerTop input{
+        background-color:#ffff;
+        width: 200px;
     }
 }

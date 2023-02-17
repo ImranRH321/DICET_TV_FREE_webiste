@@ -164,3 +164,70 @@ width: 100%;
  font-size: 2rem;
  color: black;
 }
+/* Foooter=============>  */
+footer{
+    margin-top: 100px;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* ==================footerTop */
+.footerTop{
+ display: flex;
+ justify-content: center;
+ gap: 10%;
+ background-color: green;
+ height: 77px;
+ align-items: center;
+ color: white;
+ font-size: 1.5rem;
+ border-bottom: 1px solid white;
+}
+.footerTop input{
+    background-color:#ffff;
+    width: 400px;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.footerTop button{
+    background-color: black;
+    color: white;
+    height: 35px;
+    border-radius: 17px;
+}
+
+/* ============================== */
+/* footer_bottom_container */
+.footer_bottom_container{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-content: flex-start;
+      margin: auto;
+      gap: 20px;
+      align-items: flex-start;
+      padding: 25px;
+      background: #000;
+      color: forestgreen;
+}
+.box{
+    /* border: 2px solid; */
+    padding: 5px;
+
+}
+
+.box p{
+    padding: 10px 0;
+}
+
+.cr{
+    padding: 10px 0
+}
+
+i{
+    color: floralwhite;
+    font-size: 2rem;
+    padding: 10px 4px;
+    cursor: pointer;
+
+}
