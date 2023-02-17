@@ -7,6 +7,16 @@
     .live_sp_container {
         grid-template-columns: repeat(1, 1fr);
     }
+    /* ==============  */
+    .helloBeby {
+        grid-template-columns: repeat(1,1fr);
+        padding: 7px;
+        
+    }
+    .client_img_container {
+        width: 40%;
+        margin: auto;
+    }
 }
 @media only screen  and (min-width: 577px) and (max-width: 993px){
     body{
@@ -23,5 +33,10 @@
     .img_container {
         width: 95%;
         margin: 0 auto;
+    }
+    .helloBeby {
+        grid-template-columns: repeat(2,1fr);
+        padding: 7px;
+        
     }
 }
